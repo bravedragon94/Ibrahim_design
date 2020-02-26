@@ -25,7 +25,7 @@ Version: 1.0
      /*background:rgba(21, 17, 20, 0.5);*/
      /*background: rgb(34, 61, 93);*/
      background:#edf2f6;
-     font-size: 13px;
+     font-size: 16px;
      font-family: 'Ubuntu', sans-serif;
 }
  /*p{*/
@@ -332,6 +332,10 @@ Version: 1.0
  .bg-success {
      background-color: #00c9a7 !important;
 }
+ .bg-red{
+     background-color: #dc3545;
+
+ }
  .bg-danger {
      background-color: #de4437 !important;
 }
@@ -379,7 +383,18 @@ Version: 1.0
      color: #007bff;
      background-color: #ebf2ff;
      border-color: #ebf2ff;
+
 }
+.btn-bd{
+    width: 27%;
+    border-radius: 20px;
+    padding: 0px;
+}
+ .btn-grey{
+     color: #007bff;
+     background-color: #ebf2ff;
+     border-color: #ebf2ff;
+ }
  .btn-light:hover {
      color: #007bff;
      background-color: #ffffff;
@@ -433,7 +448,7 @@ Version: 1.0
      background: #1d2f38 !important;
 }
  .form-control, .btn {
-     font-size: 13px;
+     font-size: 12px;
 }
 .input-group-text, .custom-select{
   font-size: 13px;
@@ -456,7 +471,7 @@ Version: 1.0
      font-size: .85rem;
 }
  .text-gray-500 {
-     color: #b7b9cc!important;
+     color: #685b52!important;
 }
  .dropdown-list-image {
      position: relative;
@@ -464,8 +479,8 @@ Version: 1.0
      width: 2.5rem;
 }
  .dropdown-list-image img {
-     height: 2.5rem;
-     width: 2.5rem;
+     height: 50px;
+
 }
  .dropdown-list-image .status-indicator {
      background-color: #eaecf4;

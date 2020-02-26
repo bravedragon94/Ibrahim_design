@@ -12,6 +12,10 @@
 .font-16{
     font-size: 16px;
 }
+hr{
+    background-color: #cd2d34;
+}
+
 .home-bg::before{
     background: url(../img/back2.jpg);
     background-size: cover;
@@ -119,7 +123,9 @@
 .grey{
     background: #f1f1f1;
 }
-
+.darkgrey{
+    color: #606060;
+}
 .job-category {
     list-style: none;
     width: 100%;
@@ -131,7 +137,13 @@
     display: inline-block;
     margin-left: 0.3rem;
 }
-
+.btn-height{
+    height: 40px;
+    margin: 9px;
+}
+.grey-div{
+    background-color: #e5eaed;
+}
 .job-category li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: red; /* Change the color */
@@ -171,7 +183,7 @@
     height: 20px;
 }
 .flag-title{
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 10px;
 }
 .ap-lead-icon{
@@ -198,9 +210,6 @@
 .searchTerm::placeholder{
     color:white;
 }
-.logo{
+span{
     font-family: Arista20;
-    color: #00ceec!important;
-    font-size: 30px;
-
 }
